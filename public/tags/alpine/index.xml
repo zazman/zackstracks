@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Alpine - Tag - Zacks Tracks</title>
-        <link>https://zackstracks.com/tags/alpine/</link>
+        <link>https://zazman.github.io/zackstracks/tags/alpine/</link>
         <description>Alpine - Tag - Zacks Tracks</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Jul 2025 23:51:43 -0700</lastBuildDate><atom:link href="https://zackstracks.com/tags/alpine/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Jul 2025 23:51:43 -0700</lastBuildDate><atom:link href="https://zazman.github.io/zackstracks/tags/alpine/" rel="self" type="application/rss+xml" /><item>
     <title>Ptarmigan_Traverse</title>
-    <link>https://zackstracks.com/posts/ptarmigan_traverse/</link>
+    <link>https://zazman.github.io/zackstracks/posts/ptarmigan_traverse/</link>
     <pubDate>Thu, 24 Jul 2025 23:51:43 -0700</pubDate>
     <author>xxxx</author>
-    <guid>https://zackstracks.com/posts/ptarmigan_traverse/</guid>
+    <guid>https://zazman.github.io/zackstracks/posts/ptarmigan_traverse/</guid>
     <description><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>I&rsquo;ve been eyeing up the <strong>Ptarmigan Traverse</strong> for quite some time now, and it <em>finally</em> happened.</p>
 <p>In fact it was such an amazing experince, it motivated me to start this website, <a href="https://zackstracks.com" target="_blank" rel="noopener noreffer ">Zack&rsquo;s Tracks</a>.</p>]]></description>

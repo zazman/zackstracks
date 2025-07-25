@@ -1,4 +1,4 @@
-baseURL = 'https://zackstracks.com/'
+baseURL = "https://zazman.github.io/zackstracks/"
 languageCode = 'en-us'
 title = 'Zacks Tracks'
 theme = 'LoveIt'
