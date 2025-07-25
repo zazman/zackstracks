@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Zacks Tracks</title>
+        <link>https://zazman.github.io/tags/</link>
+        <description>Tags - Tag - Zacks Tracks</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Jul 2025 23:51:43 -0700</lastBuildDate><atom:link href="https://zazman.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Alpine</title>
+    <link>https://zazman.github.io/tags/alpine/</link>
+    <pubDate>Thu, 24 Jul 2025 23:51:43 -0700</pubDate>
+    <author>xxxx</author>
+    <guid>https://zazman.github.io/tags/alpine/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Traverse</title>
+    <link>https://zazman.github.io/tags/traverse/</link>
+    <pubDate>Thu, 24 Jul 2025 23:51:43 -0700</pubDate>
+    <author>xxxx</author>
+    <guid>https://zazman.github.io/tags/traverse/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Washington</title>
+    <link>https://zazman.github.io/tags/washington/</link>
+    <pubDate>Thu, 24 Jul 2025 23:51:43 -0700</pubDate>
+    <author>xxxx</author>
+    <guid>https://zazman.github.io/tags/washington/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
