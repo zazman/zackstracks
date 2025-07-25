@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Zacks Tracks</title>
+        <title>All Posts - Zack&#39;s Tracks</title>
         <link>https://zazman.github.io/posts/</link>
-        <description>All Posts | Zacks Tracks</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 24 Jul 2025 23:51:43 -0700</lastBuildDate><atom:link href="https://zazman.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Ptarmigan_Traverse</title>
+        <description>All Posts | Zack&#39;s Tracks</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 12 Jul 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zazman.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Ptarmigan Traverse</title>
     <link>https://zazman.github.io/posts/ptarmigan_traverse/</link>
-    <pubDate>Thu, 24 Jul 2025 23:51:43 -0700</pubDate>
-    <author>xxxx</author>
+    <pubDate>Sat, 12 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>Zack S</author>
     <guid>https://zazman.github.io/posts/ptarmigan_traverse/</guid>
-    <description><![CDATA[<h2 id="introduction">Introduction</h2>
+    <description><![CDATA[<h1 id="introduction">Introduction</h1>
 <p>I&rsquo;ve been eyeing up the <strong>Ptarmigan Traverse</strong> for quite some time now, and it <em>finally</em> happened.</p>
 <p>In fact it was such an amazing experince, it motivated me to start this website, <a href="https://zackstracks.com" target="_blank" rel="noopener noreffer ">Zack&rsquo;s Tracks</a>.</p>]]></description>
 </item>
