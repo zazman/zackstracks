@@ -36,7 +36,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/zazman.github.io\/posts\/jeff_high_route\/"
-        },"genre": "posts","keywords": "alpine, Oregon, loop, trail run","wordcount":  203 ,
+        },"genre": "posts","keywords": "alpine, Oregon, loop, trail run","wordcount":  345 ,
         "url": "https:\/\/zazman.github.io\/posts\/jeff_high_route\/","datePublished": "2025-07-29T00:00:00+00:00","dateModified": "2025-07-29T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -110,33 +110,69 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Mount Jefferson High Loop</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Zack S</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-07-29">2025-07-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;203 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
-        </div><div class="featured-image"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/posts/jeff_high_route/IMG_2285.jpg"
-        data-srcset="/posts/jeff_high_route/IMG_2285.jpg, /posts/jeff_high_route/IMG_2285.jpg 1.5x, /posts/jeff_high_route/IMG_2285.jpg 2x"
-        data-sizes="auto"
-        alt="/posts/jeff_high_route/IMG_2285.jpg"
-        title="/posts/jeff_high_route/IMG_2285.jpg" width="8088" height="3940" /></div><div class="details toc" id="toc-static"  data-kept="">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-07-29">2025-07-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;345 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><p>I&rsquo;ve been thinking about the <strong>Mt. Jefferson High Loop</strong> for almost now a year, and I&rsquo;m ecstatic I finally crossed it off the to-do list.</p>
+            </div><div class="content" id="content"><p><br><br></p>
+<div style="width: 75vw; position: relative; left: 50%; right: 50%; margin-left: -35vw; margin-right: -50vw;">
+  <img src="IMG_2285.jpg" alt="Wide image" style="width: 100%; height: auto;" />
+</div>
+<p>I&rsquo;ve been thinking about the <strong>Mt. Jefferson High Loop</strong> for almost now a year, and I&rsquo;m ecstatic I finally crossed it off the to-do list.</p>
 <h1 id="background">Background</h1>
 <p>Mt. Jefferson being Oregon&rsquo;s second tallest mountain, and arguably the most difficult to access of the big Cascade peaks, it sees much less traffic than any of the other large peak and holds a certain sense of solitude and wilderness that is hard to find elsewhere.</p>
 <p>I&rsquo;ve spent a lot of time on Jefferson and in the surrounding nature it has to offer (Hunt&rsquo;s Cove, Pamelia, Jefferson Park, the Tables, etc&hellip;), and keep coming back</p>
 <h1 id="route-acknowledgment">Route Acknowledgment</h1>
 <p>Although I&rsquo;d love to claim that I came up with this route on my own, I have to mention <a href="https://medium.com/@jrit/mt-jefferson-high-loop-9c441b1ec586" target="_blank" rel="noopener noreffer ">Jarrett Widman&rsquo;s</a> trip report for the invaluable beta on the route, both in description and photos, and for being the first and only person that I could find having completed this route.</p>
 <h1 id="tribal--regulations">Tribal  regulations</h1>
-<p>If you&rsquo;re planning on completing this route, or travelling on the East face of Mt/ Jefferson in general, make sure you check the most up to date tribal regulations from the <strong>Warm Springs</strong> reservation, as you will be travelling on their land when on the East face.</p>
-<p><br><br></p>
-<center>
-  <img src="IMG_2268.jpg" alt="Meadow" width="600" />
-</center>
+<img src="IMG_2268.jpg" alt="Meadow" style="float: right; margin: 0 0 1em 1em;" width="500" />
+<p>
+  If you're planning on completing this route, or travelling on the East face of Mt/ Jefferson in general, make sure you check the most up to date tribal regulations from the <strong>Warm Springs</strong> reservation, as you will be travelling on their land when on the East face.
+</p>
+<h1 id="gps-tracks">GPS Tracks</h1>
+<p>Although there is no extremely difficult routefiniding on this route, it&rsquo;s always nice to have GPS tracks to follow. Feel free to download mine by clicking <a href="https://www.strava.com/activities/15280297631/export_gpx" target="_blank" rel="noopener noreffer ">this link</a>, or preview the route below.</p>
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<!-- Leaflet GPX plugin -->
+<script src="https://unpkg.com/leaflet-gpx"></script>
+<div id="map" style="height: 500px; margin: 2rem 0;"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var map = L.map('map').setView([44.674, -121.799], 11); // Set to your route center
+    L.tileLayer('https://basemap.nationalmap.gov/ArcGIS/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 16,
+    attribution: 'Tiles courtesy of the U.S. Geological Survey'
+    }).addTo(map);
+
+
+    new L.GPX("/tracks/jeff_with_will.gpx", {
+      async: true,
+      marker_options: {
+        startIconUrl: null,
+        endIconUrl: null,
+        shadowUrl: null
+      }
+    }).on('loaded', function(e) {
+      map.fitBounds(e.target.getBounds());
+    }).addTo(map);
+  });
+</script>
+<h1 id="the-route">The route!</h1>
+<p>Overall, the route we took totaled up to:</p>
+<ul>
+<li><strong>21 miles</strong> total miles</li>
+<li>14 miles on trail</li>
+<li>7 miles off trail</li>
+<li><strong>6,000ft</strong> of gain</li>
+<li><strong>7 hours and 13 minutes</strong> start to finish</li>
+</ul>
+<p>Of course, considering the large portion of this route that is spent doing your own route finding, these numbers might vary a good amount from person to person. I would emphasize that statement for how long the route takes to complete. We spent three and a half hours on the East side of Jefferson travelling on loose rock, but depending on your comfort running/hiking on boulders and smaller rocks this could take much longer.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -146,7 +182,7 @@
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop" data-hashtags="alpine,Oregon,loop,trail run"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zazman.github.io/posts/jeff_high_route/" data-hashtag="alpine"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@14.9.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop" data-image="IMG_2285.jpg"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fzazman.github.io%2fposts%2fjeff_high_route%2f&amp;text=Mount%20Jefferson%20High%20Loop" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop" data-hashtags="alpine,Oregon,loop,trail run"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zazman.github.io/posts/jeff_high_route/" data-hashtag="alpine"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@14.9.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="https://zazman.github.io/posts/jeff_high_route/" data-title="Mount Jefferson High Loop" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fzazman.github.io%2fposts%2fjeff_high_route%2f&amp;text=Mount%20Jefferson%20High%20Loop" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
