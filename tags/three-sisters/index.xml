@@ -1,13 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Three Sisters - Tag - Zacks Tracks</title>
+        <title>Three Sisters - Tag - Zack&#39;s Tracks</title>
         <link>https://zazman.github.io/tags/three-sisters/</link>
-        <description>Three Sisters - Tag - Zacks Tracks</description>
+        <description>Three Sisters - Tag - Zack&#39;s Tracks</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zazman.github.io/tags/three-sisters/" rel="self" type="application/rss+xml" /><item>
+    <title>Early Morning Couloir - Skiing in August</title>
+    <link>https://zazman.github.io/content/posts/early_morning_couloir/</link>
+    <pubDate>Sat, 09 Aug 2025 00:00:00 &#43;0000</pubDate>
+    <author>Zack S</author>
+    <guid>https://zazman.github.io/content/posts/early_morning_couloir/</guid>
+    <description><![CDATA[Skiing Early Morning Couloir in August]]></description>
+</item>
+<item>
     <title>Early Morning Couloir - Skiing in August</title>
     <link>https://zazman.github.io/posts/early_morning_couloir/</link>
     <pubDate>Sat, 09 Aug 2025 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Zack S</author>
     <guid>https://zazman.github.io/posts/early_morning_couloir/</guid>
     <description><![CDATA[Skiing Early Morning Couloir in August]]></description>
 </item>
