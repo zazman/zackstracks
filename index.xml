@@ -1,6 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Zack&#39;s Tracks</title>
+        <title>Zacks Tracks</title>
         <link>https://zazman.github.io/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 &#43;0000</lastBuildDate>
@@ -9,7 +9,7 @@
     <title>Early Morning Couloir - Skiing in August</title>
     <link>https://zazman.github.io/posts/early_morning_couloir/</link>
     <pubDate>Sat, 09 Aug 2025 00:00:00 &#43;0000</pubDate>
-    <author>Zack S</author>
+    <author>xxxx</author>
     <guid>https://zazman.github.io/posts/early_morning_couloir/</guid>
     <description><![CDATA[Skiing Early Morning Couloir in August]]></description>
 </item>
@@ -17,17 +17,17 @@
     <title>Mount Jefferson High Loop</title>
     <link>https://zazman.github.io/posts/jeff_high_route/</link>
     <pubDate>Tue, 29 Jul 2025 00:00:00 &#43;0000</pubDate>
-    <author>Zack S</author>
+    <author>xxxx</author>
     <guid>https://zazman.github.io/posts/jeff_high_route/</guid>
     <description><![CDATA[I&rsquo;ve been thinking about the <strong>Mt. Jefferson High Loop</strong> for almost now a year, and I&rsquo;m ecstatic I finally crossed it off the to-do list.]]></description>
 </item>
 <item>
-    <title>Ptarmigan Traverse</title>
+    <title>Ptarmigan_Traverse</title>
     <link>https://zazman.github.io/posts/ptarmigan_traverse/</link>
-    <pubDate>Sat, 12 Jul 2025 00:00:00 &#43;0000</pubDate>
-    <author>Zack S</author>
+    <pubDate>Thu, 24 Jul 2025 23:51:43 -0700</pubDate>
+    <author>xxxx</author>
     <guid>https://zazman.github.io/posts/ptarmigan_traverse/</guid>
-    <description><![CDATA[<h1 id="introduction">Introduction</h1>
+    <description><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>I&rsquo;ve been eyeing up the <strong>Ptarmigan Traverse</strong> for quite some time now, and it <em>finally</em> happened.</p>
 <p>In fact it was such an amazing experince, it motivated me to start this website, <a href="https://zackstracks.com" target="_blank" rel="noopener noreffer ">Zack&rsquo;s Tracks</a>.</p>]]></description>
 </item>
